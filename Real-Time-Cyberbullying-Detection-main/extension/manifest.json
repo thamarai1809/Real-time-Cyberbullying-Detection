@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Cyberbullying Detection",
+  "version": "1.0",
+  "description": "Real-time cyberbullying detection",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

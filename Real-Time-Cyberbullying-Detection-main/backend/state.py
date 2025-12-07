@@ -1,0 +1,1 @@
+current_organiser_email = None
