@@ -75,10 +75,6 @@ Email notifications (SMTP)
 
 In-app alerts (optional)
 
-### Deployment
-
-Hosted on Render
-
 # Significance
 
 Online learning environments expose students to increasing risks of digital harassment.
